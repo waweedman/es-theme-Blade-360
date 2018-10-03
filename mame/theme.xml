@@ -1,0 +1,58 @@
+<theme>
+	<formatVersion>4</formatVersion>
+	<include>./../theme.xml</include>
+
+	<view name="system, basic, detailed, video">
+		<image name="logo">
+			<path>./_inc/system.png</path>
+		</image>
+	</view>
+
+	<view name="system">
+<text name="system_description" extra="true">
+			<text>MAME stands for Multiple Arcade Machine Emulator. MAME can emulate thousands of games that otherwise would have been lost in the ash-heaps of history.</text>
+		</text>
+              <image name="bar" extra="true">
+                   <origin>0 0</origin>
+                   <pos>0 0</pos>
+                   <maxSize>1 1</maxSize>
+                   <path>./_inc/bar.png</path>
+                </image>
+
+                
+                <image name="snap" extra="true">
+                   <origin>0 0</origin>
+                   <pos>0 0</pos>
+                   <maxSize>1 1</maxSize>
+                   <zIndex>1</zIndex>
+                   <path>./_inc/systemsnap.png</path>
+                </image>                
+                
+             	</view>
+  
+	<view name="basic,detailed,video">
+                <image name="console" extra="true">
+                   <origin>0.0 0.0</origin>
+                   <pos>0.700 0.575</pos>
+                   <maxSize>0.25 0.25</maxSize>
+                   <path>./_inc/console.png</path>
+                </image>
+				
+				<image name="bar" extra="true">
+                   <origin>0 0</origin>
+                   <pos>0 0</pos>
+                   <maxSize>1 1</maxSize>
+                   <path>./_inc/bar.png</path>
+                </image>
+				
+				
+                <image name="snap" extra="true">
+                   <origin>0 0</origin>
+                   <pos>0 0</pos>
+                   <maxSize>1 1</maxSize>
+                   <zIndex>1</zIndex>
+                   <path>./_inc/systemsnap.png</path>
+                </image>                
+	</view>  
+
+</theme>
